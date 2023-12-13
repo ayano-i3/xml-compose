@@ -2,6 +2,7 @@ package com.okuda.xml_compose
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.compose.runtime.Composable
 import com.okuda.xml_compose.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
