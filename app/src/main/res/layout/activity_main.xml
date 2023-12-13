@@ -8,12 +8,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="121dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="188dp"
+        android:layout_width="124dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="152dp"
         android:src="@drawable/ic_profile"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,7 +21,7 @@
         android:id="@+id/nameEditText"
         android:layout_width="203dp"
         android:layout_height="46dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:hint="Name"
         app:layout_constraintEnd_toStartOf="@id/button"
@@ -40,11 +40,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="142dp"
+        android:layout_width="124dp"
         android:layout_height="35dp"
         android:layout_marginTop="36dp"
         android:text=""
         android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
